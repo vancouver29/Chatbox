@@ -15,7 +15,7 @@ body {
     margin: 50px auto;
     overflow: auto;
     width: 60%;
-    min-height: 400px;
+    min-height: 630px;
 }
 
 header h1 {
@@ -31,4 +31,38 @@ header h1 {
     height: 400px;
     margin: 20px auto;
     overflow: auto;
+}
+
+.chat {
+    list-style: none;
+    padding: 8px;
+    border-bottom: 1px #cccccc dotted;
+
+}
+
+.chat span {
+    color: #aaaaaa;
+}
+
+#input {
+    width: 90%;
+    min-height: 80px;
+    margin: auto;
+    padding: 0;
+}
+
+#input input[type='text'] {
+    height: 25px;
+    width: 48%;
+    padding: 3px;
+    margin-bottom: 20px;
+    border: #666666 solid 1px;
+}
+
+
+#input .submit-btn {
+    padding: 5px;
+    margin-bottom: 30px;
+    width: 100%;
+    margin: 10px auto;
 }
