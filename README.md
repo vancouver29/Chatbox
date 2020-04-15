@@ -1,2 +1,2 @@
 # Chatbox
-![](image/chatbox.png)
+![Screen shot](image/chatbox.png)
