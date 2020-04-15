@@ -1,3 +1,5 @@
+<?php include 'database.php' ; ?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -25,7 +27,7 @@
                     <input type="text" name="user" placeholder="Enter Your Name">
                     <input type="text" name="message" placeholder="Enter A Message">
                     <br>
-                    <input class="submit-btn" type="submit" name="submit" value="Submit">
+                    <input class="submit-btn" type="submit" name="submit" value="Submit" >
                 </form>
             </div>
         </div>
